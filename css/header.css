@@ -1,0 +1,73 @@
+/*ENCABEZADO*/
+    
+ .encabezado{ /*div del encabezado*/
+     overflow: hidden;
+     position: relative;
+     width: 1350px; /*Ancho*/
+     height: 663px; /*Altura*/
+     background-color:rgba(20, 58, 20, 0.555); /* Color verde con % de transparencia */
+    }
+    
+.fondoenc{ /*div para el fondo del encabezado*/
+    position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: url('../img/estudiantes.jpeg');
+     background-size: cover; /* Ajustar la imagen al tamaño del div sin deformarla */
+     background-position: center center; /* Centrar la imagen en el div */
+     background-repeat: no-repeat; /* Evitar que la imagen se repita */
+     filter: blur(4px); /* Ajusta el valor de desenfoque según tus preferencias */
+     z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+    }
+    
+#logoenc{ /*logo del encabezado*/
+     width: 160px;
+     height: 160px;
+     position: relative; /* Posición absoluta para superponerla */
+     top: 20px; /* Distancia desde la parte superior del contenedor */
+     left: 100px; /* Distancia desde la izquierda del contenedor */
+    }
+    
+.encabezado i { /*iconos*/
+     color:yellowgreen;
+     display: inline-block; /* Mostrar en línea con otros elementos */
+     margin-right: 12px; /* Espacio entre el icono y el texto */
+     text-align: center; /* Centrar el contenido horizontalmente */
+     font-size: 35px; /* Tamaño del icono */
+     margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
+    }
+    
+.encabezado p { /*elementos parrafo del encabezado*/
+     display: inline-block; /* Mostrar en línea con otros elementos */
+     font-family: 'Hubballi', sans-serif;
+     font-size: 20px;
+     color: white;
+     font-weight: 900; /* Muy Negrita */
+    }
+    
+.encabezado h1 {
+     margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
+     color: white; /* Color del texto */
+     font-family: 'Hubballi', sans-serif;
+     font-size: 56px;
+     font-weight: 500;
+    }
+
+.encabezado h3 {
+     margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
+     color: white; /* Color del texto */
+     font-family: 'Hubballi', sans-serif;
+     font-size: 40px;
+     font-weight: 400;
+    }
+    
+.fa-graduation-cap, .fa-briefcase {
+        position: relative;
+}
+.fa-briefcase {
+        left: -15px; /* Ajusta el valor según tus necesidades */
+}
