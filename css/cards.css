@@ -11,6 +11,7 @@
     ** Body main style
 */
 .cards {
+  margin-top: -50px;
   scroll-behavior: smooth;
   font-family: 'Hubballi', sans-serif;
   background-color: #ffffff;
@@ -18,16 +19,19 @@
 .cards p{
   font-size: 16px;
   font-weight: 900;
+  margin-top: -5px; 
 }
 .cards h3{
   font-weight: 900;
   font-size: 28px;
   position: relative;
   text-align: center;
+  margin-top: -5px;
 }
 .cards h4{
     font-size: 16px;
     font-weight: 900;
+    margin-top: 1px; 
 }
 .cards {
   color:white;

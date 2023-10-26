@@ -1,0 +1,44 @@
+.aboutus {
+    margin: 40px; /* Ajusta el margen según el espacio que desees */
+    padding: 40px; /* Ajusta el padding según el espacio que desees */
+    margin-top: -30px;
+}
+
+.aboutus h1 {
+font-family: 'Hubballi', sans-serif;
+font-size: 42px;
+color: greenyellow;
+font-weight: 900; /* Muy Negrita */
+text-align: center;
+}
+
+.aboutus p { 
+    font-family: 'Hubballi', sans-serif;
+    font-size: 18px;
+    color:black;
+    text-align: justify;
+    margin-top: -10px;
+   }
+.aboutus h3 {
+    color:olivedrab; 
+    font-family: 'Hubballi', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: -5px;
+   }
+   .aboutus p[class="primer-p"] {
+    color: olivedrab; /* Cambia el color del primer párrafo */
+    font-weight: 600;
+    font-size: 18.89px;
+  }
+.aboutus h4 {
+    font-family: 'Hubballi', sans-serif;
+    font-size: 32px;
+    color: greenyellow;
+    font-weight: 900; /* Muy Negrita */
+    text-align: center;
+    margin-top: -5px;
+}
+.linea-divisoria {
+    border-bottom: 1px solid #ccc; /* Añade una línea divisoria de 1 píxel de ancho y color gris claro (#ccc) */
+}

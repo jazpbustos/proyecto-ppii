@@ -1,5 +1,14 @@
 /*ENCABEZADO*/
-    
+
+.fondo-blanco{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    z-index: 1;
+}
  .encabezado{ /*div del encabezado*/
      overflow: hidden;
      position: relative;
@@ -22,8 +31,11 @@
      background-repeat: no-repeat; /* Evitar que la imagen se repita */
      filter: blur(4px); /* Ajusta el valor de desenfoque según tus preferencias */
      z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+     background-attachment: fixed; /* Efecto de imagen estatica en el scroll */
+     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
     }
-    
+
 #logoenc{ /*logo del encabezado*/
      width: 160px;
      height: 160px;
