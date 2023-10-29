@@ -4,10 +4,13 @@ body,html{
 }
 
 ::selection {
-    color:olive; /* Cambia el color del texto seleccionado a verde */
+    color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
     background-color: initial; /* Restablece el fondo de selección al valor predeterminado */
 }
 ::-moz-selection {
-    color: olive; /* Cambia el color del texto seleccionado a verde en navegadores Firefox */
+    color: chartreuse; /* Cambia el color del texto seleccionado a verde en navegadores Firefox */
     background-color: initial;
+}
+.espacio1 {
+      height: 330px; /* Ajusta la altura según tus necesidades */
 }

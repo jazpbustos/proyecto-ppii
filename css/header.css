@@ -1,12 +1,11 @@
 /*ENCABEZADO*/
-
 .fondo-blanco{
     overflow: hidden;
     position: relative;
     width: 100%;
     height: 100%;
     background-color: white;
-    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     z-index: 1;
 }
  .encabezado{ /*div del encabezado*/
@@ -39,7 +38,7 @@
 #logoenc{ /*logo del encabezado*/
      width: 160px;
      height: 160px;
-     position: relative; /* Posición absoluta para superponerla */
+     position: relative; 
      top: 20px; /* Distancia desde la parte superior del contenedor */
      left: 100px; /* Distancia desde la izquierda del contenedor */
     }

@@ -1,0 +1,27 @@
+.graduates h1 {
+    font-family: 'Hubballi', sans-serif;
+    font-size: 42px;
+    color: olivedrab  ;
+    font-weight: 900; /* Muy Negrita */
+    text-align: center;
+    }
+/*
+.carrusel{
+    display:flex;
+    width: 1000px;
+    height: 350px;
+}
+.carrusel img{
+    width: 70px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.carrusel img:hover{
+    cursor: crosshair;
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%)
+}
+*/
