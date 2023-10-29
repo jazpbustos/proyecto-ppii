@@ -2,9 +2,7 @@
     margin: 40px; /* Ajusta el margen según el espacio que desees */
     padding: 40px; /* Ajusta el padding según el espacio que desees */
     margin-top: -5px;
-
 }
-
 .aboutus h1 {
 font-family: 'Hubballi', sans-serif;
 font-size: 42px;
@@ -13,7 +11,6 @@ font-weight: 900; /* Muy Negrita */
 text-align: center;
 margin-top: 50px;
 }
-
 .aboutus p { 
     font-family: 'Hubballi', sans-serif;
     font-size: 20px;
@@ -39,4 +36,5 @@ margin-top: 50px;
     color: olivedrab;
     font-weight: 900; /* Muy Negrita */
     text-align: center;   
+    margin-top: 30px;
 }

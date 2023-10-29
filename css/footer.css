@@ -17,7 +17,7 @@
     font-size: 14px;
     color:#473c31;
     margin-left: 70px; /* Ajusta la cantidad de desplazamiento deseada */
-    margin-top: 25px; /* Ajusta el valor según sea necesario */
+    margin-top: 32.5px; /* Ajusta el valor según sea necesario */
 }
 
 .redes-sociales i { /*iconos*/
@@ -36,7 +36,7 @@ z-index: 2;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: -160px;
+    margin-top: -165px;
 }
   .info {
     text-align: center;
@@ -47,6 +47,7 @@ z-index: 2;
   .info i {
     font-size: 20px;
     color:#473c31; /* Cambia el color de los iconos según tu preferencia */
+    top: 5px;
 }
   .info p {
     font-family: 'Hubballi', sans-serif;
@@ -57,14 +58,12 @@ z-index: 2;
 
 }
 .info a {
-    text-decoration: none;
+  text-decoration: none; /* Opcional: eliminar el subrayado */
     color: #473c31; /* Color de texto para los enlaces */
   }
   
-.fa-envelope .fa-phone{
-    position:relative;
-}
-  .fa-location-dot {
-    position: relative;
-    top: 5.5px;
+/* Cambiar el color de los enlaces en estado hover */
+.footer a:hover {
+  color:olivedrab;
+  text-decoration: none; /* Opcional: eliminar el subrayado */
 }
