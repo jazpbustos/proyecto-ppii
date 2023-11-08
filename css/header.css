@@ -107,7 +107,7 @@
     }
   /* Redefine el tamaño de fuente para los elementos de texto en el encabezado */
   .encabezado h1 {
-    font-size: 40px; /* Ajusta el tamaño de fuente deseado */
+    font-size: 38px; /* Ajusta el tamaño de fuente deseado */
   }
 
   .encabezado h3 {
@@ -115,7 +115,7 @@
   }
 
   .encabezado p {
-    font-size: 16px; /* Ajusta el tamaño de fuente deseado */
+    font-size: 12px; /* Ajusta el tamaño de fuente deseado */
   }
     .encabezado i{
         margin-bottom: 5px;
