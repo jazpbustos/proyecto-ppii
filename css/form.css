@@ -1,0 +1,66 @@
+.headform h2 {
+    font-family: 'Hubballi', sans-serif;
+    font-size: 22px;
+    color:white;
+    font-weight: 900;
+    background-color: yellowgreen; /* Color de fondo */
+    margin-bottom: 10px; /* Espacio inferior para separarlo de los campos */
+    padding: 10px 0; /* Padding superior e inferior para el título */
+    text-align: center; /* Centra el texto */
+    margin-left: -31px; /* Margen negativo para ocupar todo el ancho */
+    margin-right: -31px; /* Margen negativo para ocupar todo el ancho */
+    margin-top: -7px; /* Ajusta la posición vertical hacia arriba (puedes ajustar el valor según sea necesario) */
+  }
+.form { /*posicion en el header*/
+    margin-left: 850px; 
+    margin-top: -480px; 
+  }
+.form {
+    font-family: 'Hubballi', sans-serif;
+    font-size: 14px;
+    max-width: 350px; /* Ancho máximo del formulario */
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  /* Estilo para los campos de entrada del formulario */
+  .field input, .field select  {
+    font-family: 'Hubballi', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f9f9f9; /* Borde gris claro, similar al fondo blanco */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Color de fondo ligeramente más oscuro que el blanco */
+    color: olivedrab;
+  }
+  /* Estilo para el botón de envío del formulario */
+  #button {
+    background-color:olivedrab; /* Fondo verde para el botón */
+    font-family: 'Hubballi', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding: 10px 30px; /* Ajusta el padding para hacer el botón más largo (15px de alto, 40px de ancho) */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block; /* Cambia la visualización a bloque para centrar horizontalmente */
+    margin: 0 auto; /* Centra horizontalmente el botón en el formulario */
+  }
+  /* Estilo para el botón de envío al pasar el mouse */
+  #button:hover {
+    background-color: yellowgreen; /* Cambia el color al pasar el mouse */
+  }
+  
+  #mensaje-confirmacion {
+    display: none;
+    background-color: #00a000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  

@@ -21,6 +21,13 @@ Ojo con la de sobrescripción de estilos-->
  <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
 <!--favicon(visible en barra navegador de la pestaña)-->
  <link rel="icon" type="image/x-icon" href="img/logo redondo sf.png">
+ <!--link EmailJS-->
+ <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('apTpS23EUeVZBeBPE');
+</script>
 
  <title>U.E.G.P. N° 208</title>
 
@@ -37,6 +44,7 @@ Ojo con la de sobrescripción de estilos-->
  <h1> Líderes en educación </h1>
 
  <h3>¡Empezá hoy tu tecnicatura online!</h3> 
+
 <br>
 
  <i class="fa-solid fa-house-laptop"></i><p>100% online</p>
@@ -44,6 +52,83 @@ Ojo con la de sobrescripción de estilos-->
  <br>
  <i class="fa-solid fa-clock"></i><p>Duración 3 años</p>
  <i class="fa-solid fa-briefcase"></i><p>Carreras cortas<br>con salida laboral</p>
+
+ <div class="form">
+  <form id="form" onsubmit="return validarFormulario()">
+    <div class="headform">
+    <h2>INSCRIPCIONES ABIERTAS</h2>
+    </div> 
+
+    <div class="field">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" required>
+    </div>
+    <div class="field">
+      <label for="provincia">Provincia</label>
+      <select name="provincia" id="provincia" required>
+        <option value="">Selecciona</option> <!-- Opción predeterminada -->
+        <option value="Buenos Aires">Buenos Aires</option>
+        <option value="Catamarca">Catamarca</option>
+        <option value="Chaco">Chaco</option>
+        <option value="Chubut">Chubut</option>
+        <option value="Córdoba">Córdoba</option>
+        <option value="Corrientes">Corrientes</option>
+        <option value="Entre Ríos">Entre Ríos</option>
+        <option value="Formosa">Formosa</option>
+        <option value="Jujuy">Jujuy</option>
+        <option value="La Pampa">La Pampa</option>
+        <option value="La Rioja">La Rioja</option>
+        <option value="Mendoza">Mendoza</option>
+        <option value="Misiones">Misiones</option>
+        <option value="Neuquén">Neuquén</option>
+        <option value="Río Negro">Río Negro</option>
+        <option value="Salta">Salta</option>
+        <option value="San Juan">San Juan</option>
+        <option value="San Luis">San Luis</option>
+        <option value="Santa Cruz">Santa Cruz</option>
+        <option value="Santa Fe">Santa Fe</option>
+        <option value="Santiago del Estero">Santiago del Estero</option>
+        <option value="Tierra del Fuego">Tierra del Fuego</option>
+        <option value="Tucumán">Tucumán</option>
+      </select>
+    </div>    
+    <div class="field">
+      <label for="carrera">Carrera</label>
+      <select name="carrera" id="carrera" required>
+        <option value="">Selecciona</option> <!-- Opción predeterminada -->
+        <option value="Logística">Logística</option>
+        <option value="Ciencia de Datos e Inteligencia Artificial">Ciencia de Datos e Inteligencia Artificial</option>
+        <option value="Orientación del Desarrollo Personal - Counseling">Orientación del Desarrollo Personal - Counseling</option>
+        <option value="Acompañamiento Terapéutico">Acompañamiento Terapéutico</option>
+        <option value="Niñez, Adolescencia y Familia">Niñez, Adolescencia y Familia</option>
+        <option value="Dietética y Nutrición">Dietética y Nutrición</option>
+        <option value="Administración con Orientación en Cooperativas y Mutuales">Administración con Orientación en Cooperativas y Mutuales</option>
+        <option value="Administración Pública">Administración Pública</option>
+        <option value="Gestión Ambiental">Gestión Ambiental</option>
+        <option value="Diseño Gráfico y Digital">Diseño Gráfico y Digital</option>
+        <option value="Gestión Turística">Gestión Turística</option>
+        <option value="Gestión de Recursos Humanos">Gestión de Recursos Humanos</option>
+      </select>
+    </div>
+    
+    <div class="field">
+      <label for="telefono">Número de celular (sin 0 y sin 15)</label>
+      <input type="text" name="telefono" id="telefono" required>
+    </div>
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" required>
+    </div>
+  
+    <input type="submit" id="button" value="Enviar" >
+
+    <div id="mensaje-confirmacion" class="mensaje-oculto">
+      ¡Gracias por contactarte con nosotros!
+      Pronto nos comunicaremos con vos.  </div>
+  </form>
+
+ </div>
+ 
 </div>
  </div>
 
@@ -245,12 +330,9 @@ Ojo con la de sobrescripción de estilos-->
           </div>
     </div>
     <h5>Vos formas tu propio futuro</h5>
-
  </div>
 
- <div class="form">
 
- </div>
 
  <div class="espacio1"></div>
  
