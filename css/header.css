@@ -82,3 +82,31 @@
 .fa-briefcase {
         left: -15px; /* Ajusta el valor según tus necesidades */
 }
+
+/* Estilos para dispositivos móviles (por ejemplo, 768px o menos) */
+@media (max-width: 768px) {
+    .encabezado {
+      padding: 10px; /* Ajusta el espacio interno en pantallas más pequeñas */
+
+      width: 100%;
+      height: auto;
+
+    }
+  
+    #logoenc {
+      width: 15%; /* Ajusta el tamaño del logo en dispositivos móviles */
+      height: auto;
+      left: 0%; /* Centra el logo horizontalmente */
+    }
+  
+    .encabezado p,
+    .encabezado h1,
+    .encabezado h3 {
+      margin: 0; /* Elimina los márgenes para centrar los elementos horizontalmente */
+      text-align: center; /* Centra el contenido horizontalmente */
+    }
+
+    .encabezado i{
+
+    }
+  }
