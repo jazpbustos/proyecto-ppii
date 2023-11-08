@@ -94,7 +94,47 @@
     }
   
     #logoenc {
-      width: 27%; /* Ajusta el tamaño del logo en dispositivos móviles */
+      width: 25%; /* Ajusta el tamaño del logo en dispositivos móviles */
+      height: auto;
+      left: 0%; /* Centra el logo horizontalmente */
+    }
+  
+    .encabezado p,
+    .encabezado h1,
+    .encabezado h3 {
+      margin: 20px;
+      /*text-align: center; /* Centra el contenido horizontalmente */
+    }
+  /* Redefine el tamaño de fuente para los elementos de texto en el encabezado */
+  .encabezado h1 {
+    font-size: 40px; /* Ajusta el tamaño de fuente deseado */
+  }
+
+  .encabezado h3 {
+    font-size: 30px; /* Ajusta el tamaño de fuente deseado */
+  }
+
+  .encabezado p {
+    font-size: 16px; /* Ajusta el tamaño de fuente deseado */
+  }
+    .encabezado i{
+        margin-bottom: 5px;
+        margin: 20px;
+        margin-right: 0; /* Espacio entre el icono y el texto */
+    }
+  }
+
+  @media (max-width: 460px) {
+    .encabezado {
+      padding: 0; /* Ajusta el espacio interno en pantallas más pequeñas */
+
+      width: 100%;
+      height: auto;
+
+    }
+  
+    #logoenc {
+      width: 25%; /* Ajusta el tamaño del logo en dispositivos móviles */
       height: auto;
       left: 0%; /* Centra el logo horizontalmente */
     }
