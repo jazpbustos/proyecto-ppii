@@ -94,7 +94,7 @@
     }
   
     #logoenc {
-      width: 20%; /* Ajusta el tamaño del logo en dispositivos móviles */
+      width: 27%; /* Ajusta el tamaño del logo en dispositivos móviles */
       height: auto;
       left: 0%; /* Centra el logo horizontalmente */
     }
