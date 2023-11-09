@@ -156,10 +156,14 @@
 
   .encabezado p {
     font-size: 12px; /* Ajusta el tamaño de fuente deseado */
+    margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
+
   }
     .encabezado i{
         margin-bottom: 5px;
         margin: 20px;
         margin-right: 0; /* Espacio entre el icono y el texto */
+        margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
+
     }
   }
