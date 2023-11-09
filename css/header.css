@@ -164,6 +164,7 @@
         margin: 20px;
         margin-right: 0; /* Espacio entre el icono y el texto */
         margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
+        font-size: 25px; /* Tamaño del icono */
 
     }
   }
