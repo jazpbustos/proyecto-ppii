@@ -43,3 +43,15 @@ margin-top: 50px;
     margin-top: 130px; /* Ajusta según sea necesario para agregar espacio entre el encabezado y la sección aboutus */
   }
 }
+@media (max-width: 700px) {
+  .aboutus {
+    margin: 30px; /* Ajusta el margen según el espacio que desees */
+    padding: 30px; /* Ajusta el padding según el espacio que desees */
+  }
+}
+@media (max-width: 580px) {
+  .aboutus {
+    margin: 20px; /* Ajusta el margen según el espacio que desees */
+    padding: 20px; /* Ajusta el padding según el espacio que desees */
+  }
+}

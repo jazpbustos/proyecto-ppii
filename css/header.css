@@ -137,15 +137,12 @@ margin-bottom: 60px;
 .encabezado h1 {
   font-size: 36px; /* Ajusta el tamaño de fuente deseado */
 }
-
 .encabezado h3 {
   font-size: 28px; /* Ajusta el tamaño de fuente deseado */
 }
-
 .encabezado p {
   font-size: 12px; /* Ajusta el tamaño de fuente deseado */
   margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
-
 }
   .encabezado i{
       margin-bottom: 5px;
