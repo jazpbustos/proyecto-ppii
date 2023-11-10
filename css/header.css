@@ -15,7 +15,6 @@
      height: 663px; /*Altura*/
      background-color:rgba(20, 58, 20, 0.555); /* Color verde con % de transparencia */
     }
-    
 .fondoenc{ /*div para el fondo del encabezado*/
     position: absolute;
      top: 0;
@@ -32,9 +31,7 @@
      z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
      background-attachment: fixed; /* Efecto de imagen estatica en el scroll */
      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-
     }
-
 #logoenc{ /*logo del encabezado*/
      width: 160px;
      height: 160px;
@@ -42,7 +39,6 @@
      top: 20px; /* Distancia desde la parte superior del contenedor */
      left: 100px; /* Distancia desde la izquierda del contenedor */
     }
-    
 .encabezado i { /*iconos*/
      color:yellowgreen;
      display: inline-block; /* Mostrar en línea con otros elementos */
@@ -50,16 +46,15 @@
      text-align: center; /* Centrar el contenido horizontalmente */
      font-size: 35px; /* Tamaño del icono */
      margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
+     display: inline-block;
     }
-    
 .encabezado p { /*elementos parrafo del encabezado*/
      display: inline-block; /* Mostrar en línea con otros elementos */
      font-family: 'Hubballi', sans-serif;
      font-size: 20px;
      color: white;
      font-weight: 900; /* Muy Negrita */
-    }
-    
+    } 
 .encabezado h1 {
      margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
      color: white; /* Color del texto */
@@ -67,7 +62,6 @@
      font-size: 56px;
      font-weight: 500;
     }
-
 .encabezado h3 {
      margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
      color: white; /* Color del texto */
@@ -75,7 +69,6 @@
      font-size: 40px;
      font-weight: 400;
     }
-    
 .fa-graduation-cap, .fa-briefcase {
         position: relative;
 }
@@ -85,86 +78,84 @@
 
 /* Estilos para dispositivos móviles (por ejemplo, 768px o menos) */
 @media (max-width: 768px) {
-    .encabezado {
-      padding: 10px; /* Ajusta el espacio interno en pantallas más pequeñas */
-
-      width: 100%;
-      height: auto;
-
-    }
-  
-    #logoenc {
-      width: 25%; /* Ajusta el tamaño del logo en dispositivos móviles */
-      height: auto;
-      left: 0%; /* Centra el logo horizontalmente */
-    }
-  
-    .encabezado p,
-    .encabezado h1,
-    .encabezado h3 {
-      margin: 20px;
-      /*text-align: center; /* Centra el contenido horizontalmente */
-    }
-  /* Redefine el tamaño de fuente para los elementos de texto en el encabezado */
-  .encabezado h1 {
-    font-size: 40px; /* Ajusta el tamaño de fuente deseado */
+  .encabezado {
+    padding: 20px; /* Ajusta el espacio interno en pantallas más pequeñas */
+    width: 100%;
+    height: auto;
   }
-
+  #logoenc {
+    width: 20%; /* Ajusta el tamaño del logo en dispositivos móviles */
+    height: auto;
+    left: 0%; /* Centra el logo horizontalmente */
+    top: 0px;
+  }
+  .encabezado p,
+  .encabezado h1,
   .encabezado h3 {
-    font-size: 30px; /* Ajusta el tamaño de fuente deseado */
+    margin: 20px;
+    margin-top: -5px;
   }
-
-  .encabezado p {
-    font-size: 16px; /* Ajusta el tamaño de fuente deseado */
-  }
-    .encabezado i{
-        margin-bottom: 5px;
-        margin: 20px;
-        margin-right: 0; /* Espacio entre el icono y el texto */
-    }
-  }
-
-  @media (max-width: 460px) {
-    .encabezado {
-      padding: 0; /* Ajusta el espacio interno en pantallas más pequeñas */
-
-      width: 100%;
-      height: auto;
-
-    }
-  
-    #logoenc {
-      width: 25%; /* Ajusta el tamaño del logo en dispositivos móviles */
-      height: auto;
-      left: 0%; /* Centra el logo horizontalmente */
-    }
-  
-    .encabezado p,
-    .encabezado h1,
-    .encabezado h3 {
+/* Redefine el tamaño de fuente para los elementos de texto en el encabezado */
+.encabezado h1 {
+  font-size: 40px; /* Ajusta el tamaño de fuente deseado */
+}
+.encabezado h3 {
+  font-size: 30px; /* Ajusta el tamaño de fuente deseado */
+}
+.encabezado p {
+  font-size: 16px; /* Ajusta el tamaño de fuente deseado */
+  margin-bottom: 50; /* Ajusta según sea necesario para dar más espacio en la parte inferior */
+}
+  .encabezado i{
+    margin-bottom: 20px; /* Ajusta según sea necesario para dar más espacio en la parte inferior */
       margin: 20px;
-      /*text-align: center; /* Centra el contenido horizontalmente */
-    }
-  /* Redefine el tamaño de fuente para los elementos de texto en el encabezado */
-  .encabezado h1 {
-    font-size: 38px; /* Ajusta el tamaño de fuente deseado */
+      margin-right: 0; /* Espacio entre el icono y el texto */
   }
-
-  .encabezado h3 {
-    font-size: 30px; /* Ajusta el tamaño de fuente deseado */
-  }
-
+  .encabezado i,
   .encabezado p {
-    font-size: 12px; /* Ajusta el tamaño de fuente deseado */
-    margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
-
+margin-bottom: 60px;
   }
-    .encabezado i{
-        margin-bottom: 5px;
-        margin: 20px;
-        margin-right: 0; /* Espacio entre el icono y el texto */
-        margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
-        font-size: 25px; /* Tamaño del icono */
-
-    }
+}
+@media (max-width: 550px) {
+  .encabezado {
+    padding: 0; /* Ajusta el espacio interno en pantallas más pequeñas */
+    width: 100%;
+    height: auto;
   }
+  #logoenc {
+    width: 25%; /* Ajusta el tamaño del logo en dispositivos móviles */
+    height: auto;
+    left: 0%; /* Centra el logo horizontalmente */
+  }
+  .encabezado p,
+  .encabezado h1,
+  .encabezado h3 {
+    margin: 20px;
+    /*text-align: center; /* Centra el contenido horizontalmente */
+  }
+/* Redefine el tamaño de fuente para los elementos de texto en el encabezado */
+.encabezado h1 {
+  font-size: 36px; /* Ajusta el tamaño de fuente deseado */
+}
+
+.encabezado h3 {
+  font-size: 28px; /* Ajusta el tamaño de fuente deseado */
+}
+
+.encabezado p {
+  font-size: 12px; /* Ajusta el tamaño de fuente deseado */
+  margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
+
+}
+  .encabezado i{
+      margin-bottom: 5px;
+      margin: 20px;
+      margin-right: 0; /* Espacio entre el icono y el texto */
+      margin-top: -10px; /* Ajusta el margen superior para subir los elementos i */
+      font-size: 25px; /* Tamaño del icono */
+  }
+  .encabezado i,
+  .encabezado p {
+margin-bottom: 80px;
+  }
+}

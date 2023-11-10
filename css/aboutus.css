@@ -38,3 +38,8 @@ margin-top: 50px;
     text-align: center;   
     margin-top: 30px;
 }
+@media (min-width: 970px) {
+.aboutus {
+    margin-top: 130px; /* Ajusta según sea necesario para agregar espacio entre el encabezado y la sección aboutus */
+  }
+}

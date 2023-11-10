@@ -1,4 +1,8 @@
 /*HEADER*/
+.form-container{
+  z-index: 2; /* Asegura que el formulario esté por encima del encabezado */
+  position: relative;
+}
 .headform h2 {
     font-family: 'Hubballi', sans-serif;
     font-size: 22px;
@@ -14,7 +18,7 @@
   }
 .form { /*posicion en el header*/
     margin-left: 850px; 
-    margin-top: -480px; 
+    margin-top: -565px; 
   }
 .form {
     font-family: 'Hubballi', sans-serif;
@@ -65,3 +69,34 @@
     margin-top: 10px;
   }
   
+
+  @media (min-width: 970px) and (max-width: 1115px) {
+    /* Estilos para dispositivos en ese rango de tamaño */
+    .form {
+      margin-left: 700px; /* Ajusta según sea necesario para mover el formulario hacia la izquierda */
+    }
+  }
+    @media (max-width: 970px) {
+      /* Estilos para dispositivos móviles */
+      .form {
+        /* Estilos específicos para el formulario en dispositivos móviles */
+        max-width: 80%;
+        margin: 0 auto;
+        background-color: white; /* Fondo para el formulario en dispositivos móviles */
+        padding: 20px; /* Ajusta según sea necesario */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al formulario en dispositivos móviles */
+      }
+      .headform h2 {
+        background-color: yellowgreen; /* Color de fondo */
+        margin-bottom: 10px; /* Espacio inferior para separarlo de los campos */
+        padding: 10px 0; /* Padding superior e inferior para el título */
+        text-align: center; /* Centra el texto */
+        margin-left: -20.5px; /* Margen negativo para ocupar todo el ancho */
+        margin-right: -20.5px; /* Margen negativo para ocupar todo el ancho */
+        margin-top: -7px; /* Ajusta la posición vertical hacia arriba (puedes ajustar el valor según sea necesario) */
+      }    
+      .form-container{
+        margin-top: 70px; /* Ajusta el margen superior para agregar más espacio */
+      }
+    }
+
