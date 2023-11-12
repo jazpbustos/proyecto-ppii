@@ -3,7 +3,9 @@ body,html{
     padding: 0;
     position: relative;
 }
-
+body{
+    overflow-x: hidden
+}
 ::selection {
     color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
     background-color: initial; /* Restablece el fondo de selección al valor predeterminado */
