@@ -48,21 +48,21 @@ input, label {
   #button {
     background-color:olivedrab; /* Fondo verde para el botón */
     font-family: 'Hubballi', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 900;
     color: white;
-    padding: 10px 30px; /* Ajusta el padding para hacer el botón más largo (15px de alto, 40px de ancho) */
+    padding: 6px 22.5px; /* Ajusta el padding para hacer el botón más largo (15px de alto, 40px de ancho) */
     border: none;
     border-radius: 20px;
     cursor: pointer;
     display: block; /* Cambia la visualización a bloque para centrar horizontalmente */
     margin: 0 auto; /* Centra horizontalmente el botón en el formulario */
+    margin-top: 7px;
   }
   /* Estilo para el botón de envío al pasar el mouse */
   #button:hover {
     background-color: yellowgreen; /* Cambia el color al pasar el mouse */
   }
-  
   #mensaje-confirmacion {
     display: none;
     background-color: #00a000;
@@ -72,8 +72,6 @@ input, label {
     border-radius: 5px;
     margin-top: 10px;
   }
-  
-
   @media (min-width: 970px) and (max-width: 1115px) {
     /* Estilos para dispositivos en ese rango de tamaño */
     .form {
