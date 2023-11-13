@@ -54,6 +54,8 @@
      font-size: 20px;
      color: white;
      font-weight: 900; /* Muy Negrita */
+     margin-top: 15px;
+
     } 
 .encabezado h1 {
      margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
@@ -61,6 +63,7 @@
      font-family: 'Hubballi', sans-serif;
      font-size: 56px;
      font-weight: 500;
+     margin-top: 30px;
     }
 .encabezado h3 {
      margin-left: 100px; /* Ajusta la cantidad de desplazamiento deseada */
@@ -68,6 +71,8 @@
      font-family: 'Hubballi', sans-serif;
      font-size: 40px;
      font-weight: 400;
+     margin-top: 15px;
+
     }
 .fa-graduation-cap, .fa-briefcase {
         position: relative;

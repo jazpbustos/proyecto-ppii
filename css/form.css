@@ -18,12 +18,13 @@
   }
 .form { /*posicion en el header*/
     margin-left: 850px; 
-    margin-top: -565px; 
+    margin-top: -580px; 
   }
 .form {
     font-family: 'Hubballi', sans-serif;
     font-size: 14px;
     max-width: 350px; /* Ancho máximo del formulario */
+    max-height: 450px; /* Ajusta el valor según sea necesario */
     padding: 30px;
     background-color: white;
     border: 1px solid #ddd;
@@ -40,6 +41,9 @@
     background-color: #f9f9f9; /* Color de fondo ligeramente más oscuro que el blanco */
     color: olivedrab;
   }
+input, label {
+  line-height: 0;
+}
   /* Estilo para el botón de envío del formulario */
   #button {
     background-color:olivedrab; /* Fondo verde para el botón */
