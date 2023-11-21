@@ -1,69 +1,97 @@
-#logopie{ /*logo del encabezado*/
-    width: 180px;
-    height: 180px;
-    position: relative; 
-    top: 20px;
-    left: 50px; /* Distancia desde la izquierda del contenedor */
+#logopie {
+  width: 15%;
+  max-width: 180px;
+  position: relative;
+  top: 20px;
+  left: 3%;
 }
-.footer{
-    background-color: yellowgreen;
-    height: 250px; /* Altura más gruesa */
-    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
-    position: relative;
 
+.footer {
+  background-color: yellowgreen;
+  min-height: 250px;
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+  position: relative;
 }
+
 .footer h6 {
-    font-family: 'Hubballi', sans-serif;
-    font-size: 14px;
-    color:#473c31;
-    margin-left: 70px; /* Ajusta la cantidad de desplazamiento deseada */
-    margin-top: 32.5px; /* Ajusta el valor según sea necesario */
+  font-family: 'Hubballi', sans-serif;
+  font-size: 14px;
+  color: #473c31;
+  margin-left: 5%; /* Ajusta la cantidad de desplazamiento deseada */
+  margin-top: 32.5px;
 }
 
-.redes-sociales i { /*iconos*/
-    color:#473c31;
-    font-size: 35px; /* Tamaño del icono */
-    margin-right: 10px; /* Espacio entre los iconos de redes sociales */
+.redes-sociales i {
+  color: #473c31;
+  font-size: 35px;
+  margin-right: 10px; /* Espacio entre los iconos de redes sociales */
+  transition: font-size 0.3s ease; /* Agrega una transición suave al tamaño de la fuente */
+
 }
-   .redes-sociales {
-margin-left: 1150px;
-margin-top: -120px;
-position: relative;
-z-index: 2;
+.redes-sociales i:hover {
+  font-size: 40px; /* Tamaño más grande al pasar el cursor sobre el icono */
 }
+
+.redes-sociales {
+  display: flex;
+  justify-content: flex-end; /* Alinea los íconos a la derecha */
+  margin-top: -120px;
+  margin-right: 3%; /* Ajusta el margen derecho según sea necesario */
+  position: relative;
+  z-index: 2;
+}
+
 .datos-insti {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: -165px;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -130px;
 }
-  .info {
-    text-align: center;
-    position: relative;
-    left: 15px;
-    top:15px;
+
+.info {
+  text-align: center;
+  margin: 0 10px; /* Añade un pequeño margen entre los elementos */
 }
-  .info i {
-    font-size: 20px;
-    color:#473c31; /* Cambia el color de los iconos según tu preferencia */
-    top: 5px;
+
+.info i {
+  font-size: 20px;
+  color: #473c31;
+  top: 5px;
 }
-  .info p {
-    font-family: 'Hubballi', sans-serif;
-    font-size: 17px;
-    color: #473c31; /* Cambia el color del texto según tu preferencia */
-    font-weight: 500;
-    margin-right: 15px; /* Espacio entre el icono y el texto */
+
+.info p {
+  font-family: 'Hubballi', sans-serif;
+  font-size: 17px;
+  color: #473c31;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #473c31;
+}
+
+.footer a:hover {
+  color: olivedrab;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer {
+    min-height: 350px;
+  }
+.datos-insti {
+  margin-top: 10%; /* Ajusta el margen superior para centrar los datos en el medio */
 
 }
-.info a {
-  text-decoration: none; /* Opcional: eliminar el subrayado */
-    color: #473c31; /* Color de texto para los enlaces */
-  }
-  
-/* Cambiar el color de los enlaces en estado hover */
-.footer a:hover {
-  color:olivedrab;
-  text-decoration: none; /* Opcional: eliminar el subrayado */
+.redes-sociales{
+  position: absolute;
+  bottom: 10px; /* Ajusta este valor según tus preferencias */
+  left: 88%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
 }
