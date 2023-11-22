@@ -4,7 +4,9 @@ body,html{
     position: relative;
 }
 body{
-    overflow-x: hidden
+    overflow-x: hidden;
+    border: 0;
+
 }
 ::selection {
     color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
