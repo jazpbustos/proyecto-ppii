@@ -35,7 +35,7 @@
   display: flex;
   justify-content: flex-end; /* Alinea los íconos a la derecha */
   margin-top: -120px;
-  margin-right: 3%; /* Ajusta el margen derecho según sea necesario */
+  margin-right: 2%; /* Ajusta el margen derecho según sea necesario */
   position: relative;
   z-index: 2;
 }
@@ -78,27 +78,39 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
   .footer {
     min-height: 350px;
   }
 .datos-insti {
-  margin-top: 10%; /* Ajusta el margen superior para centrar los datos en el medio */
+  margin-top: 3%; /* Ajusta el margen superior para centrar los datos en el medio */
 
 }
 .redes-sociales{
   position: absolute;
-  bottom: 10px; /* Ajusta este valor según tus preferencias */
-  left: 88%;
+  bottom: 200px; /* Ajusta este valor según tus preferencias */
+  left: 80%;
   transform: translateX(-50%);
   z-index: 2;
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 535px) {
   #logopie{
     margin-top: 30px;
   }
 .footer h6{
   margin-top: 50px;
+}
+.redes-sociales{
+  bottom: 10px; /* Ajusta este valor según tus preferencias */
+  left: 85%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.redes-sociales i{
+  font-size: 30px;
+}
+.redes-sociales i:hover {
+  font-size: 35px; /* Tamaño más grande al pasar el cursor sobre el icono */
 }
 }
