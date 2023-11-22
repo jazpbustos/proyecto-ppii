@@ -20,3 +20,8 @@ body {
 .espacio1 {
       height: 330px; /* Ajusta la altura según tus necesidades */
 }
+@media screen and (max-width: 535px){
+    .espacio1{
+        height: 150px;
+    }
+}
