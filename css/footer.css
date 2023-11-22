@@ -11,7 +11,6 @@
   min-height: 250px;
   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
   position: relative;
-  margin-top: -20px;
 }
 
 .footer h6 {
@@ -113,5 +112,8 @@
 }
 .redes-sociales i:hover {
   font-size: 30px; /* Tamaño más grande al pasar el cursor sobre el icono */
+}
+.footer{
+  margin-top: -50px;
 }
 }
