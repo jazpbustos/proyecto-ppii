@@ -2,12 +2,9 @@ body,html{
     margin: 0;
     padding: 0;
     position: relative;
-
-}
-body {
     overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
-    overflow-y: auto;   /* Muestra la barra de desplazamiento vertical solo cuando sea necesario */
 }
+
 
 ::selection {
     color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
