@@ -20,6 +20,12 @@ body {
 .espacio1 {
       height: 330px; /* Ajusta la altura según tus necesidades */
 }
+@media (pointer: fine){
+    body,
+    html {
+        overflow-x: visible;
+    }
+}
 @media screen and (max-width: 535px){
     .espacio1{
         height: 200px;
