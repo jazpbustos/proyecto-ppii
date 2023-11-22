@@ -2,10 +2,11 @@ body,html{
     margin: 0;
     padding: 0;
     position: relative;
-    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
 }
-
-
+body{
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+    box-sizing: border-box;
+}
 ::selection {
     color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
     background-color: initial; /* Restablece el fondo de selección al valor predeterminado */
@@ -16,12 +17,6 @@ body,html{
 }
 .espacio1 {
       height: 330px; /* Ajusta la altura según tus necesidades */
-}
-@media (pointer: fine){
-    body,
-    html {
-        overflow-x: visible;
-    }
 }
 @media screen and (max-width: 535px){
     .espacio1{
