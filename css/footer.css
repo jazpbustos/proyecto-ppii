@@ -11,6 +11,8 @@
   min-height: 250px;
   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
   position: relative;
+  overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+
 }
 
 .footer h6 {

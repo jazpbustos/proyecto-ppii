@@ -5,7 +5,6 @@ body,html{
 }
 body{
     overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
-    box-sizing: border-box;
 }
 ::selection {
     color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
