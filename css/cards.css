@@ -47,8 +47,6 @@
   color: olivedrab  ;
   font-weight: 900; /* Muy Negrita */
   text-align: center;
-  margin-top: 50px;
-
   }
 .cards {
   color:white;
@@ -162,6 +160,5 @@
   }
   .cards h5{
     font-size: 26px;
-    margin-top: 10px;
   }
 }
