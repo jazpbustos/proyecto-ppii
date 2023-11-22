@@ -3,7 +3,7 @@ body,html{
     padding: 0;
     position: relative;
 }
-body{
+html{
     overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
 }
 ::selection {
