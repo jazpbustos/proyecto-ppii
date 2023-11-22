@@ -103,7 +103,7 @@
 }
 .redes-sociales{
   bottom: 10px; /* Ajusta este valor según tus preferencias */
-  left: 80%;
+  left: 82%;
   transform: translateX(-50%);
   z-index: 2;
 }
@@ -113,5 +113,4 @@
 .redes-sociales i:hover {
   font-size: 30px; /* Tamaño más grande al pasar el cursor sobre el icono */
 }
-
 }
