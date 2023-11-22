@@ -113,7 +113,7 @@
 .redes-sociales i:hover {
   font-size: 30px; /* Tamaño más grande al pasar el cursor sobre el icono */
 }
-.footer{
-  margin-top: -50px;
+.espacio1 {
+  display: none;
 }
 }
