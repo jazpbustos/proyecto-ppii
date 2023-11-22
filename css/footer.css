@@ -113,4 +113,9 @@
 .redes-sociales i:hover {
   font-size: 30px; /* Tamaño más grande al pasar el cursor sobre el icono */
 }
+.footer {
+  margin: 0;
+  padding: 0;
+}
+
 }
