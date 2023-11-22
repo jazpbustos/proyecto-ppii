@@ -6,7 +6,6 @@ body,html{
 body{
     overflow-x: hidden;
     border: 0;
-
 }
 ::selection {
     color:chartreuse ; /* Cambia el color del texto seleccionado a verde */
