@@ -51,7 +51,7 @@ input, label {
     font-size: 22px;
     font-weight: 900;
     color: white;
-    padding: 6px 22.5px; /* Ajusta el padding para hacer el botón más largo (15px de alto, 40px de ancho) */
+    padding: 20px 22.5px; /* Ajusta el padding para hacer el botón más largo (15px de alto, 40px de ancho) */
     border: none;
     border-radius: 20px;
     cursor: pointer;
