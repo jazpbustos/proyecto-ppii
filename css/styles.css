@@ -21,4 +21,8 @@ body{
     .espacio1{
         height: 200px;
     }
+    body {
+        overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+
+    }
 }

@@ -110,9 +110,9 @@
   z-index: 2;
 }
 .redes-sociales i{
-  font-size: 25px;
+  font-size: 30px;
 }
 .redes-sociales i:hover {
-  font-size: 30px; /* Tamaño más grande al pasar el cursor sobre el icono */
+  font-size: 35px; /* Tamaño más grande al pasar el cursor sobre el icono */
 }
 }
