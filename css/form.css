@@ -72,6 +72,7 @@ input, label {
     border-radius: 5px;
     margin-top: 10px;
   }
+
   @media (min-width: 970px) and (max-width: 1115px) {
     /* Estilos para dispositivos en ese rango de tamaño */
     .form {
