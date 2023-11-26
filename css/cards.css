@@ -126,9 +126,7 @@
   flex: 0 0 calc(25% - 10px); /* Cambia el 20.17% a 25% para mostrar 4 tarjetas en una fila */
 }
 }
-@media (max-width: 970px){
-
-  }
+@media (max-width: 970px){}
 @media (max-width: 768px) {
   .cards h1{
     font-size: 40px;

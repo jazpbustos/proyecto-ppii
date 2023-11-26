@@ -17,6 +17,21 @@ body{
 .espacio1 {
       height: 330px; /* Ajusta la altura según tus necesidades */
 }
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(20, 58, 20, 0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: olivedrab;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+  
 @media screen and (max-width: 535px){
     .espacio1{
         height: 180px;
