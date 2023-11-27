@@ -1,105 +1,96 @@
-/*CARDS*/
-/*
-    ** All elements border-box
-*/
-*,
-*:before,
-*::after {
-  box-sizing: border-box;
+
+:root {
+  --primary: olivedrab;
+  --white: #ffffff;
+  --bg: #ffffff;
 }
-/*
-    ** Body main style
-*/
-.cards {
-  margin-top: -50px;
-  scroll-behavior: smooth;
-  font-family: 'Hubballi', sans-serif;
-  background-color: #ffffff;
+
+html {
+  font-size: 62.5%;
+  font-family: "Hubballi", sans-serif;
 }
-.cards p{
-  font-size: 16px;
-  font-weight: 900;
-  margin-top: -5px; 
+
+#cards-container {
+  font-size: 1.6rem;
+  background: var(--bg);
+  margin-top: -35px;
+
 }
-.cards h1 {
-  font-family: 'Hubballi', sans-serif;
-  font-size: 42px;
-  color: olivedrab  ;
-  font-weight: 900; /* Muy Negrita */
+
+.container {
+  max-width: 124rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.text-center {
   text-align: center;
-  margin-top: -5px;
+}
+
+.section-heading {
+  font-size: 4rem;
+  color: var(--primary);
+}
+
+#cards-container {
+  padding: 3rem 0;
+}
+
+@media (max-width:1440px) {
+  #cards-container {
+    padding: 1rem 0;
   }
-.cards h3{
-  font-weight: 900;
-  font-size: 28px;
+}
+
+#cards-container .cards-slider {
+  height: 52rem;
+  padding: 2rem 0;
   position: relative;
-  text-align: center;
-  margin-top: -5px;
 }
-.cards h4{
-    font-size: 16px;
-    font-weight: 900;
-    margin-top: 1px; 
-}
-.cards h5 {
-  font-family: 'Hubballi', sans-serif;
-  font-size: 32px;
-  color: olivedrab  ;
-  font-weight: 900; /* Muy Negrita */
-  text-align: center;
-  margin-top: 50px;
+
+@media (max-width:500px) {  
+  #cards-container .cards-slider {
+    height: 45rem;
   }
-.cards {
-  color:white;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 32px ;
+
+  .section-heading{
+    font-size: 3rem;
+  }
 }
-.cards-grid {
-  display: flex;
-  grid-gap: 10px;
-  padding-bottom: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-/* FLIP CARD */
-.flip-card {
-  width: 90px;
-  height: 257px;
-  flex: 0 0 calc(20.17% - 10px); /* 25% del ancho menos 10px de margen */
-}
-.flip-card-inner {
+
+.card-slide {
+  width: 37rem;
+  height: 42rem;
   position: relative;
-  width: 100%;
-  height: 100%;
-  transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
-  transform-style: preserve-3d;
 }
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+
+@media (max-width:1440px) {
+  .card-slide {
+    width: 37rem !important;
+    height: 42rem !important;
+  }
+  .card-slide .card-slide-img img {
+    width: 37rem !important;
+    height: 42rem !important;
+  }
 }
-.flip-card-front {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20px; /* Agrega un espacio en la parte superior */
+
+@media (max-width:500px) {
+  .card-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .card-slide .card-slide-img img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
 }
-.flip-card-back {
-  text-align: center;
-  place-items: center;
-  padding: 10px;
-  background-color: yellowgreen;
-  transform: rotateY(180deg);
-  line-height: 1.2; /* Ajusta el valor según tus preferencias para reducir el espaciado entre líneas */
-}
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(-180deg);
+
+.card-slide .card-slide-img img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
 }
 .color-transparente {
   position: absolute;
@@ -107,57 +98,173 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:rgba(20, 58, 20, 0.555);
+  background-color:rgba(20, 58, 20, 0.5);
+  border-radius: 2rem;
 }
-.linea-verde {
-    position: absolute; /* Cambiamos la posición a absoluta */
-    bottom: 40px; /* Lo colocamos en la parte inferior de la tarjeta */
-    left: 0; /* Alineado a la izquierda de la tarjeta */
-    height: 20px; /* Altura más delgada */
-    width: 100%;
-    background-color:greenyellow; /* Color de fondo verde */
-    text-align: center;
-} 
 
-@media (max-width: 1115px){
-.flip-card {
-  width: 90px;
-  height: 257px;
-  flex: 0 0 calc(25% - 10px); /* Cambia el 20.17% a 25% para mostrar 4 tarjetas en una fila */
+.card-slide .card-slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
+
+.card-slide-content .tecn-name {
+  position: relative;
+  top: 2rem;
+  text-align: center;
+  color: var(--white);
 }
-@media (max-width: 970px){}
-@media (max-width: 768px) {
-  .cards h1{
-    font-size: 40px;
-  }
-  .cards h3{
-    font-size: 22px;
-  }
-  .cards h4{
-    font-size: 16px;
-  }
-  .cards p{
-    font-size: 16px
-  }
-  .cards h5{
-    font-size: 28px;
+
+.pie-card{
+  position: relative;
+  bottom: 2rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.card-slide-content .card-slide-content-bottom {
+  position: absolute;
+  bottom: 2rem;
+  color: var(--white);
+}
+.card-slide-content-bottom{
+  position: absolute;
+  bottom: 2rem; 
+  height: 2.25rem;
+  width: 100%;
+  background-color:greenyellow;
+  text-align: center;
+}
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.cards-slider-control {
+  position: relative;
+  bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-slider-control .swiper-button-next {
+  left: 60% !important;
+  transform: translateX(-60%) !important;
+}
+
+@media (max-width:990px) {
+  .cards-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
   }
 }
-@media (max-width: 580px){
-  .cards h1{
-    font-size: 32px;
+
+@media (max-width:650px) {
+  .cards-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
   }
-  .cards h3{
-    font-size: 19px;
+}
+@media (max-width:450px) {
+  .cards-slider-control .swiper-button-next {
+    left: 90% !important;
+    transform: translateX(-90%) !important;
   }
-  .cards h4{
-    font-size: 14px;
+}
+
+.cards-slider-control .swiper-button-prev {
+  left: 40% !important;
+  transform: translateX(-40%) !important;
+}
+
+@media (max-width:990px) {
+  .cards-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
   }
-  .cards p{
-    font-size: 14px
+}
+
+@media (max-width:650px) {
+  .cards-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
   }
-  .cards h5{
-    font-size: 26px;
+}
+@media (max-width:450px) {
+  .cards-slider-control .swiper-button-prev {
+    left: 10% !important;
+    transform: translateX(-10%) !important;
   }
+}
+.cards-slider-control .slider-arrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.cards-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #473c31;
+}
+
+.cards-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.cards-slider-control .swiper-pagination {
+  position: relative;
+  width: 15rem;
+  bottom: 1rem;
+}
+
+.cards-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.cards-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
+
+.card-slide-content-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  place-items: center;
+  align-items: center; /* Centra horizontalmente */
+  padding: 2rem 1.5rem;
+  background-color: yellowgreen;
+  opacity: 0;
+  transition: .5s;
+  border-radius: 2rem;
+  line-height: 1.2;
+
+}
+.card-slide-content-back p{
+  font-size: 2rem;
+  color:#ffffff;
+  font-weight: 900;
+}
+.card-slide:hover .card-slide-content-back {
+  opacity: 1;
+} 
+.section-footing {
+  font-size: 3.2rem;
+  color: var(--primary);
+  padding: 1.2rem 0;
+  margin-top: -15px;
+}
+@media (max-width:500px) {  
+  .section-footing {
+  font-size: 2.5rem;
+}
 }

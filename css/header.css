@@ -11,7 +11,7 @@
  .encabezado{ /*div del encabezado*/
      overflow: hidden;
      position: relative;
-     width: 1350px; /*Ancho*/
+     width: 1356px; /*Ancho*/
      height: 663px; /*Altura*/
      background-color:rgba(20, 58, 20, 0.555); /* Color verde con % de transparencia */
     }

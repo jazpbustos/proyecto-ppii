@@ -24,17 +24,27 @@
     font-family: 'Hubballi', sans-serif;
     font-size: 14px;
     max-width: 350px; /* Ancho máximo del formulario */
-    max-height: 450px; /* Ajusta el valor según sea necesario */
+    max-height: 400px; /* Ajusta el valor según sea necesario */
     padding: 30px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 20px;
   }
   /* Estilo para los campos de entrada del formulario */
-  .field input, .field select  {
+.field select  {
     font-family: 'Hubballi', sans-serif;
     font-size: 14px;
     width: 100%;
+    padding: 10px;
+    border: 1px solid #f9f9f9; /* Borde gris claro, similar al fondo blanco */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Color de fondo ligeramente más oscuro que el blanco */
+    color: olivedrab;
+  }
+  .field input{
+    font-family: 'Hubballi', sans-serif;
+    font-size: 14px;
+    width: 94%;
     padding: 10px;
     border: 1px solid #f9f9f9; /* Borde gris claro, similar al fondo blanco */
     border-radius: 5px;
@@ -62,15 +72,6 @@ input, label {
   /* Estilo para el botón de envío al pasar el mouse */
   #button:hover {
     background-color: yellowgreen; /* Cambia el color al pasar el mouse */
-  }
-  #mensaje-confirmacion {
-    display: none;
-    background-color: #00a000;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
   }
 
   @media (min-width: 970px) and (max-width: 1115px) {
